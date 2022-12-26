@@ -1,0 +1,48 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+/*Nav (Menu)*/
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+/*Espacio entre palabas (menu)*/
+nav > a{
+    margin: 15px;
+    font-size: 18px;
+}
+img{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+/*Botones*/
+.registrarse > button{
+    background-color: blue ;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem;
+    margin: 20px;
+    border-radius: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.iniciar > button{
+    background-color: white ;
+    color: black;
+    font-size: 18px;
+    border: 0;
+    padding: 0.7rem;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
